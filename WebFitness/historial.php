@@ -44,9 +44,6 @@
             echo "<p> Peso actual: ".$user['pesoActual']."kg</p>";
             echo '</div>';
         }
-
-
-        
     }
 
     
