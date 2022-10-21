@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+
+}
+
+.container{
+
+    max-width: 70vw;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex{
+    justify-content: space-between;
+    display: flex;
+    max-height: 700px;
+
+}
+
+.flex2{
+    padding-top: 30px;
+}
+
+.column{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.info{
+    text-align: center;
+
+}
+
+.section1{
+    max-height: 120vh; 
+    color: #711e15;
+ }
+
+.section1 h1{
+    color: #37110d;
+    font-size: 2rem;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    text-align: center;
+}
+
+.section1 p{
+    padding-bottom: 10px;
+}
+
+.column-2{ 
+    width: 10%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    text-align: center;
+}
+
+.column-3{ 
+    width: 10%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo{
+    font: bold;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bolder;;
+}
+
+
+.navegador{
+    display: flex;
+    height: 67px;
+    align-items: center;
+}
+
+.navegador a{
+    text-decoration: none;
+    color: black;
+}
+
+.navegador li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.navegador li:hover{
+    font-size:110%;
+}
+
+
+main h1{
+    text-align: center;
+    padding: 10px 0 10px 0;
+    
+} 
+
+.btn{
+    padding:7px 12px;
+    border: 2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(227 74 56);;
+}
+.dumbellimg{
+    width: 289px;
+    text-align: center;
+}
+
+.gymimg{
+    width: 300px;
+    justify-content:right;
+}
+
+.gymimg2{
+    width: 200px;
+        justify-content:center;
+}
+
+.gymimg3{
+    margin-top: 50px;
+    width: 200px;
+
+}
+
+footer{
+    text-align-last: center;
+}
+
