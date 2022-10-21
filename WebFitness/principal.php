@@ -39,9 +39,6 @@
         }
 
     }
-
-    
-
 ?>
 
 <!DOCTYPE html>
