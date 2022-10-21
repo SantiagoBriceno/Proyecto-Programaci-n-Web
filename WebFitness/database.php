@@ -2,7 +2,7 @@
     $server = "localhost";
     $username = "root";
     $password = "";
-    $database = "sitioweb_test_database";
+    $database = "Poner su base de datos aqui";
 
     try{
         $conn = new PDO("mysql:host=$server;dbname=$database", $username, $password);
@@ -12,5 +12,4 @@
 
         die('Conected failed: '. $e->getMessage());
     }
-
 ?>
