@@ -24,9 +24,6 @@ if($_POST){
         $message = 'El usuario no esta registrado, Intente de nuevo';
 
     }
-
-
-
 }
 
 ?>
