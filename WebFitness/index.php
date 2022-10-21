@@ -10,7 +10,6 @@
     
     
 </head>
-
 <body>
     <div class="container">
         <?php require 'partials/header.php'?> 
