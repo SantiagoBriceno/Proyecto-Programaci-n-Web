@@ -18,11 +18,9 @@ if($_POST) {
     }else{
          $message = 'Su usuario no a sido creado, por favor, intente de nuevo';
     }
-
  }
 
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
